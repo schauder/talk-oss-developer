@@ -8,26 +8,51 @@
 
 include::footer.ad[]
 
-== Our Hero
+== Every story needs a Hero
 
-== The End
+=== Ours is ...
 
-== Joins Pivotal
+=== Middle aged
 
-=== What should he work on?
+for almost 30 years now.
 
-Whatever does help the project.
+=== Balding
 
+even if he wouldn't shave from time to time.
 
+=== Depends on gifts from strangers for clothing
+
+mostly conference organizers.
+
+=== But he has strengths too!
+
+=== Like asthma
+
+=== And bad eye sight
+
+== Lets begin at the end.
+
+=== He starts his dream job
+
+== He joins Pivotal
+
+=== Hey Boss what should I work on?
+
+=== Whatever does help the project.
 
 === What DOES help?
 
-[.step]
-* Stackoverflow
-* Bug Fixes
-* Reviewing & Merging PRs
-* Implementing Features
-* Doing talks
+=== Stackoverflow
+
+=== Bug Fixes
+
+=== Reviewing & Merging PRs
+
+=== Implementing Features
+
+=== Doing talks
+
+Even not Spring (Data) related ones like this one.
 
 [NOTE.speaker]
 ====
@@ -41,12 +66,19 @@ There is a ton of freedom.
 
 === No planning
 
+Almost.
+
 === Except for
 
-[.step]
-* Release Date after Spring Framework, before Spring Boot
-* API changes
-* Travelling
+=== Release Dates
+
+after Spring Framework
+
+before Spring Boot
+
+=== Breaking API changes
+
+=== Travelling
 
 === No time tracking
 
@@ -57,38 +89,129 @@ I tracked time for some time privately.
 
 === Home Office
 
-[.step]
-* My Desk
-* My Monitor
-* My Chair
-* I see my kids
+means
+
+=== My Desk
+=== My Monitor
+=== My Chair
+=== I see my kids
 
 === Communication
 
-[.step]
-* Async (Slack, Mail, Twitter ...)
-* Online (Hangout, Skype ...)
+=== 95% Async
+
+* Slack
+* Mail
+* Twitter
+* Jira
+* Stack Overflow
+
+=== 5% Synchronous
+
+* Hangout
+* Skype
+* Zoom
 
 === Great Visibility
 
-=== Drawback
+[NOTE.speaker]
+====
+Almost everything is on GitHub
+====
 
-[.step]
-* Everything is public
-* No escape from Work or Home
-* I hear my kids
-* No control but self control
-* **Did I work enough?**
+=== Great Team
+
+=== Boss is Java Champion
+=== Multiple Book Authors
+=== Author of relevant DB drivers
+=== Multiple JUG organizers
+=== All are international conference speakers
+
+=== People talk to you
+
+[NOTE.speaker]
+====
+Meetings with Google.
+
+Brian Goetz dropped by at the booth to chat.
+
+Met Mike Milinkovich (Executive Director of the Eclipse Foundation)
+
+Jürgen Höller
+
+Josh Long (@starbuxman)
+====
+
+== Drawbacks
+
+=== Everything is public
+
+[NOTE.speaker]
+====
+There are always people that don't like what you do and they will tell you.
+====
+
+=== No escape from Work or Home
+
+[NOTE.speaker]
+====
+Sometimes it is actually nice to leave the home
+====
+
+=== I hear my kids
+
+[NOTE.speaker]
+====
+Head phones and Metal
+
+Or just metal until they complain about the noise
+====
+
+=== No control but self control
 
 === !
 
 > It's like doing you favorite thing all day and getting paid for it. But you do it in front of an enormous audience that is constantly murmuring.
 
-=== How do I get there?
+== A workday in my life
 
-== Be a Prodigy
+=== 6:00 Get up
+=== 6:05 Make Breakfast
 
-=== Display Image
+Coffee & Müsli for me, tea for my wife.
+
+=== 6:30 Catching up
+
+Twitter, Slack, E-Mail
+
+=== 6:45 Stackoverflow
+
+=== 7:00 Work on Jira issues
+
+I picked those to work on the day before or during Catching up.
+
+=== 9:00 Standup
+
+=== 11:30 Move
+
+Running or Freeletics
+
+=== 12:15 Lunch
+
+=== 13:00 Back to work
+
+Small stuff.
+
+Staring at Jira issues to find stuff to work on.
+
+=== 16:00 Call it a day
+
+== How did I get there?
+How might you do it?
+
+== I realized early on I'm a Prodigy
+
+=== How to Display an Image
 
 [source]
 ----
@@ -128,131 +251,213 @@ for (y -> 9..0 step -1)
        plot (x, y, image[x][y])
 ----
 
+== There are 8 variations of this
+
+I tried them all.
+
+Multiple times.
+
+=== Despair!
+
+=== Razor sharp focus
+
+In all situations.
+
+=== Teacher distributes handouts
+
+2 printed on single sheet.
+
+=== !
+
+[quote, "Me"]
+____
+You don't have to rip it a part. I have a hole punch.
+____
+
 === Still making stupid mistakes
 
 like a pro.
 
-=== Despair!
+=== Be a Prodigy?
 
-== Set you Goal
+=== Instead
 
-=== And follow it
+Keep learning!
 
-=== University
+== Clearly set my goal
 
-I wanna be ...
+to become an awesome software developer!
 
-[.step]
-* Mathematician
-* Chemist
-* Computer Scientist
-* Physicist
+=== By studying physics
 
-=== And became
+=== I learned ...
 
-[.step.fade-in-out]
-* VB Developer
-* Database Developer
-* Java Developer
-* Project Manager
-* Java Developer
-* Scrum Master
-* Scrum Trainer
-* Java Developer
+[NOTE.speaker]
+====
+to format code justified
+====
 
-=== I learned something
+=== You won't make it alone!
 
-From every bend in the path
+Thanks to
 
-== It's you and you alone!
+* Jens
+* Christine
+* Andreas
+* Axel
+* Volker
 
-=== Nerds all around me
+and many more
 
-[.step]
-* no idea how to learn
-* just did what they did
-* mostly together
+[NOTE.speaker]
+====
+I wouldn't have made it without my fellow students
 
-=== You won't make it alone
+Without them I'd still have made it but only by finding other students to pull me through
+====
 
-* Find like minded people
-* Find a mentor
+=== I didn't even wanted to become a software developer
 
-== There is no Luck!
+=== Physics jobs vs IT jobs
 
-=== Call for Proposal
+== So I started in IT
 
-Some kind of search
+=== Got side tracked
 
-=== I'm so
+=== !
 
-[quote, "Jens Schauder"]
+[quote, "First Boss"]
 ____
-Sure, we'll do that with an Oracle database
+Where do you see yourself in 5 years?
 ____
 
-=== Oracle so
+=== !
 
-[quote, "Oracle Sales"]
+[quote, "Still young me"]
 ____
-We can't do a proposal.
-We can't handle the volume.
-____
-
-== Do what you know
-
-=== PAD -> LAX
-
-[.step]
-The archetypical Texan couple chatting.
-
-=== Didn't understand a Word
-
-=== I'll be back in a week
-
-=== Stayed for 18 months
-
-Never learned as much as fast again.
-
-[.step.fade-in-out]
-* English
-* Foreign Culture
-* Self reliance
-
-=== Try stuff you never did before
-
-== Never go back!
-
-[quote, "Nicht von Honnecker"]
-____
-Vorwärts immer, rückwärts nimmer!
+I'll become a Project Manager
 ____
 
-=== Project Manager Training
+=== And I did!
 
-=== First Project
 
-Indiana Jones - vs - Arabic with saber
+// indiana jones image?
 
-Project - vs - Me
+[NOTE.speaker]
+====
+Learned a lot for certification
 
-=== Adjust aim all the time!
+Failed badly in first project
 
-* I learned a lot
-* Including that I'm not a PM
+Learned that I prefer and love actual coding
+====
 
-== Other Activities are irrelevant
+=== I finally became a Software Developer
+
+and realized that I loved it!
+
+[NOTE.speaker]
+====
+Might have been one of the smartest things I knowingly did in my life.
+====
+
+=== Set your Goal and follow it!
+
+*???*
+
+=== Instead
+
+=== Try things and see what works for you.
+
+=== Create opportunities
+
+=== for Luck to find you
+
+=== for connecting to people
+
+=== for learning
+
+=== What opportunities do you create ...
+
+=== ... while sitting in an office?
+
+=== ... when speaking at conferences.
+
+=== ... working abroad.
+
+=== ... writing a blog.
+
+=== Don't get stuck in a situation you hate!
+
+=== Get yourself in scary situations.
+
+=== Possibly the biggest mistake I made
+
+[NOTE.speaker]
+====
+Friend tells a story about some one getting a parachute jump as a present.
+
+Me "I really would hate getting tricked into such a scary situation"
+
+I never got that present.
+
+I would have hated it in the situation.
+
+But would have loved the experience.
+====
+
+=== 18 months USA
+
+[NOTE.speaker]
+====
+Thought I would be back in a week.
+
+Stayed for 18 months.
+
+Never learned so much so fast in my life.
+
+It was a lucky accident for me.
+
+Maybe you should plan that.
+====
+
+[NOTE.speaker]
+====
+Like with physical training:
+
+If it doesn't hurt, it doesn't do much.
+====
+
+== Do stuff you never did before
 
 === Creative Writing
 
-* Triggered my blog.
-* Which formed a contact to Oliver Gierke
+=== Triggered my blog
 
-== Resources
+=== Which formed a contact to Oliver Gierke
 
-++++
-<div class="reference"><a href="https://giphy.com/stickers/lost-john-travolta-looping-26tPbfJWy9bWONi0w">Giphy - John Travolta Searching</a>
-</div>
-++++
+== Let's wrap up
+
+=== Don't overthink stuff
+
+You can't control it anyway
+
+=== Try stuff
+
+And learn from
+
+success
+
++
+
+failure
+
+=== Enjoy the trip
+
+== One last thing
+
+=== You probably have to apply
+
+to get a job.
 
 include::self.ad[]

@@ -1,0 +1,258 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8" /><title>Life as an OSS Developer: and how to become one</title><meta content="yes" name="apple-mobile-web-app-capable" /><meta content="black-translucent" name="apple-mobile-web-app-status-bar-style" /><meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui" name="viewport" /><link href="reveal.js-3.6.0/css/reveal.css" rel="stylesheet" /><link rel="stylesheet" href="/Users/jschauder/IdeaProjects/talk-oss-developer/target/generated-slides/theme/schauderhaft.css" id="theme" /><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.3.0/css/font-awesome.min.css" /><style>/* Stylesheet for CodeRay to match GitHub theme | MIT License | http://foundation.zurb.com */
+/*pre.CodeRay {background-color:#f7f7f8;}*/
+.CodeRay .line-numbers{border-right:1px solid #d8d8d8;padding:0 0.5em 0 .25em}
+.CodeRay span.line-numbers{display:inline-block;margin-right:.5em;color:rgba(0,0,0,.3)}
+.CodeRay .line-numbers strong{color:rgba(0,0,0,.4)}
+table.CodeRay{border-collapse:separate;border-spacing:0;margin-bottom:0;border:0;background:none}
+table.CodeRay td{vertical-align: top;line-height:1.45}
+table.CodeRay td.line-numbers{text-align:right}
+table.CodeRay td.line-numbers>pre{padding:0;color:rgba(0,0,0,.3)}
+table.CodeRay td.code{padding:0 0 0 .5em}
+table.CodeRay td.code>pre{padding:0}
+.CodeRay .debug{color:#fff !important;background:#000080 !important}
+.CodeRay .annotation{color:#007}
+.CodeRay .attribute-name{color:#000080}
+.CodeRay .attribute-value{color:#700}
+.CodeRay .binary{color:#509}
+.CodeRay .comment{color:#998;font-style:italic}
+.CodeRay .char{color:#04d}
+.CodeRay .char .content{color:#04d}
+.CodeRay .char .delimiter{color:#039}
+.CodeRay .class{color:#458;font-weight:bold}
+.CodeRay .complex{color:#a08}
+.CodeRay .constant,.CodeRay .predefined-constant{color:#008080}
+.CodeRay .color{color:#099}
+.CodeRay .class-variable{color:#369}
+.CodeRay .decorator{color:#b0b}
+.CodeRay .definition{color:#099}
+.CodeRay .delimiter{color:#000}
+.CodeRay .doc{color:#970}
+.CodeRay .doctype{color:#34b}
+.CodeRay .doc-string{color:#d42}
+.CodeRay .escape{color:#666}
+.CodeRay .entity{color:#800}
+.CodeRay .error{color:#808}
+.CodeRay .exception{color:inherit}
+.CodeRay .filename{color:#099}
+.CodeRay .function{color:#900;font-weight:bold}
+.CodeRay .global-variable{color:#008080}
+.CodeRay .hex{color:#058}
+.CodeRay .integer,.CodeRay .float{color:#099}
+.CodeRay .include{color:#555}
+.CodeRay .inline{color:#000}
+.CodeRay .inline .inline{background:#ccc}
+.CodeRay .inline .inline .inline{background:#bbb}
+.CodeRay .inline .inline-delimiter{color:#d14}
+.CodeRay .inline-delimiter{color:#d14}
+.CodeRay .important{color:#555;font-weight:bold}
+.CodeRay .interpreted{color:#b2b}
+.CodeRay .instance-variable{color:#008080}
+.CodeRay .label{color:#970}
+.CodeRay .local-variable{color:#963}
+.CodeRay .octal{color:#40e}
+.CodeRay .predefined{color:#369}
+.CodeRay .preprocessor{color:#579}
+.CodeRay .pseudo-class{color:#555}
+.CodeRay .directive{font-weight:bold}
+.CodeRay .type{font-weight:bold}
+.CodeRay .predefined-type{color:inherit}
+.CodeRay .reserved,.CodeRay .keyword {color:#000;font-weight:bold}
+.CodeRay .key{color:#808}
+.CodeRay .key .delimiter{color:#606}
+.CodeRay .key .char{color:#80f}
+.CodeRay .value{color:#088}
+.CodeRay .regexp .delimiter{color:#808}
+.CodeRay .regexp .content{color:#808}
+.CodeRay .regexp .modifier{color:#808}
+.CodeRay .regexp .char{color:#d14}
+.CodeRay .regexp .function{color:#404;font-weight:bold}
+.CodeRay .string{color:#d20}
+.CodeRay .string .string .string{background:#ffd0d0}
+.CodeRay .string .content{color:#d14}
+.CodeRay .string .char{color:#d14}
+.CodeRay .string .delimiter{color:#d14}
+.CodeRay .shell{color:#d14}
+.CodeRay .shell .delimiter{color:#d14}
+.CodeRay .symbol{color:#990073}
+.CodeRay .symbol .content{color:#a60}
+.CodeRay .symbol .delimiter{color:#630}
+.CodeRay .tag{color:#008080}
+.CodeRay .tag-special{color:#d70}
+.CodeRay .variable{color:#036}
+.CodeRay .insert{background:#afa}
+.CodeRay .delete{background:#faa}
+.CodeRay .change{color:#aaf;background:#007}
+.CodeRay .head{color:#f8f;background:#505}
+.CodeRay .insert .insert{color:#080}
+.CodeRay .delete .delete{color:#800}
+.CodeRay .change .change{color:#66f}
+.CodeRay .head .head{color:#f4f}</style><link href="reveal.js-3.6.0/lib/css/zenburn.css" rel="stylesheet" /><script>document.write( '<link rel="stylesheet" href="reveal.js-3.6.0/css/print/' + ( window.location.search.match( /print-pdf/gi ) ? 'pdf' : 'paper' ) + '.css" type="text/css" media="print">' );</script></head><body><div class="reveal"><div class="slides"><section class="title" data-state="title"><h1>Life as an OSS Developer</h1><h2>and how to become one</h2><div class="preamble"><script type="text/javascript">
+    window.addEventListener("load", function() {
+    	Reveal.configure({
+          keyboard: {
+             39: 'next', // Right Arrow
+             37: 'prev'  // Left Arrow
+          }
+        });
+    } );
+</script>
+
+<script type="text/javascript">
+    window.addEventListener("load", function() {
+
+        revealDiv = document.querySelector("body div.reveal")
+        footer = document.getElementById("schauderhaft-footer");
+        revealDiv.appendChild(footer);
+
+    } );
+</script>
+<div id="schauderhaft-footer" class="footer">
+    <span class="element">@jensschauder</span>
+    <span class="element">@swk_ruhr</span>
+    <span class="element">#ossDev</span>
+</div></div></section>
+<section><section id="_every_story_needs_a_hero" data-background-image="images/hero.png" data-background-size="contain"><h2>Every story needs a Hero</h2></section><section id="_ours_is"><h2>Ours is &#8230;&#8203;</h2></section><section id="_middle_aged"><h2>Middle aged</h2><div class="paragraph"><p>for almost 30 years now.</p></div></section><section id="_balding" data-background-image="images/bald.png" data-background-size="contain"><h2>Balding</h2>
+<div class="paragraph"><p>even if he wouldn&#8217;t shave from time to time.</p></div></section><section id="_depends_on_gifts_from_strangers_for_clothing"><h2>Depends on gifts from strangers for clothing</h2><div class="paragraph"><p>mostly conference organizers.</p></div></section><section id="_but_he_has_strengths_too"><h2>But he has strengths too!</h2></section><section id="_like_asthma"><h2>Like asthma</h2></section><section id="_and_bad_eye_sight" data-background-image="images/glasses.png" data-background-size="contain"><h2>And bad eye sight</h2></section></section>
+<section><section id="_lets_begin_at_the_end" data-background-image="images/goal.png" data-background-size="contain"><h2>Lets begin at the end.</h2></section><section id="_he_starts_his_dream_job"><h2>He starts his dream job</h2></section><section id="_he_joins_pivotal"><h2>He joins Pivotal</h2></section></section>
+<section><section id="_hey_boss_what_should_i_work_on"><h2>Hey Boss what should I work on?</h2></section><section id="_whatever_does_help_the_project"><h2>Whatever does help the project.</h2></section><section id="_what_does_help"><h2>What DOES help?</h2></section><section id="_stackoverflow" data-background-image="images/stackoverflow.png" data-background-size="contain"><h2>Stackoverflow</h2></section><section id="_bug_fixes" data-background-image="images/bugs.png" data-background-size="contain"><h2>Bug Fixes</h2></section><section id="_reviewing_merging_prs"><h2>Reviewing &amp; Merging PRs</h2></section><section id="_implementing_features"><h2>Implementing Features</h2></section><section id="_doing_talks"><h2>Doing talks</h2><div class="paragraph"><p>Even not Spring (Data) related ones like this one.</p></div>
+<aside class="notes"><div class="paragraph"><p>There are priorities.
+* JPA is more important than SOLR
+* Security Vulnerabilities are very important and urgent.
+* &#8230;&#8203;</p></div>
+<div class="paragraph"><p>There is a ton of freedom.</p></div></aside></section></section>
+<section><section id="_organization_process" data-background-image="images/organization.png" data-background-size="contain"><h2>Organization &amp; Process</h2></section><section id="_no_planning"><h2>No planning</h2><div class="paragraph"><p>Almost.</p></div></section><section id="_except_for"><h2>Except for</h2></section><section id="_release_dates"><h2>Release Dates</h2><div class="paragraph"><p>after Spring Framework</p></div>
+<div class="paragraph"><p>before Spring Boot</p></div></section><section id="_breaking_api_changes"><h2>Breaking API changes</h2></section><section id="_travelling"><h2>Travelling</h2></section><section id="_no_time_tracking"><h2>No time tracking</h2><aside class="notes"><div class="paragraph"><p>I tracked time for some time privately.</p></div></aside></section><section id="_home_office"><h2>Home Office</h2><div class="paragraph"><p>means</p></div></section><section id="_my_desk"><h2>My Desk</h2></section><section id="_my_monitor"><h2>My Monitor</h2></section><section id="_my_chair"><h2>My Chair</h2></section><section id="_i_see_my_kids"><h2>I see my kids</h2></section><section id="_communication"><h2>Communication</h2></section><section id="_95_async"><h2>95% Async</h2><div class="ulist"><ul><li><p>Slack</p></li><li><p>Mail</p></li><li><p>Twitter</p></li><li><p>Jira</p></li><li><p>Stack Overflow</p></li></ul></div></section><section id="_5_synchronous"><h2>5% Synchronous</h2><div class="ulist"><ul><li><p>Hangout</p></li><li><p>Skype</p></li><li><p>Zoom</p></li></ul></div></section></section>
+<section><section id="_effects" data-background-image="images/domino.png" data-background-size="contain"><h2>Effects</h2></section><section id="_great_visibility"><h2>Great Visibility</h2><aside class="notes"><div class="paragraph"><p>Almost everything is on GitHub</p></div></aside></section><section id="_great_team"><h2>Great Team</h2></section><section id="_boss_is_java_champion"><h2>Boss is Java Champion</h2></section><section id="_multiple_book_authors"><h2>Multiple Book Authors</h2></section><section id="_author_of_relevant_db_drivers"><h2>Author of relevant DB drivers</h2></section><section id="_multiple_jug_organizers"><h2>Multiple JUG organizers</h2></section><section id="_all_are_international_conference_speakers"><h2>All are international conference speakers</h2></section><section id="_people_talk_to_you"><h2>People talk to you</h2><aside class="notes"><div class="paragraph"><p>Meetings with Google.</p></div>
+<div class="paragraph"><p>Brian Goetz dropped by at the booth to chat.</p></div>
+<div class="paragraph"><p>Met Mike Milinkovich (Executive Director of the Eclipse Foundation)</p></div>
+<div class="paragraph"><p>Jürgen Höller</p></div>
+<div class="paragraph"><p>Josh Long (@starbuxman)</p></div></aside></section></section>
+<section><section id="_drawbacks" data-background-image="images/hook.png" data-background-size="contain"><h2>Drawbacks</h2></section><section id="_everything_is_public"><h2>Everything is public</h2><aside class="notes"><div class="paragraph"><p>There are always people that don&#8217;t like what you do and they will tell you.</p></div></aside></section><section id="_no_escape_from_work_or_home"><h2>No escape from Work or Home</h2><aside class="notes"><div class="paragraph"><p>Sometimes it is actually nice to leave the home</p></div></aside></section><section id="_i_hear_my_kids"><h2>I hear my kids</h2><aside class="notes"><div class="paragraph"><p>Head phones and Metal</p></div>
+<div class="paragraph"><p>Or just metal until they complain about the noise</p></div></aside></section><section id="_no_control_but_self_control"><h2>No control but self control</h2></section><section><div class="quoteblock"><blockquote><div class="paragraph"><p>It&#8217;s like doing you favorite thing all day and getting paid for it. But you do it in front of an enormous audience that is constantly murmuring.</p></div></blockquote></div></section></section>
+<section><section id="_a_workday_in_my_life" data-background-image="images/time.png" data-background-size="contain"><h2>A workday in my life</h2></section><section id="_6_00_get_up"><h2>6:00 Get up</h2></section><section id="_6_05_make_breakfast"><h2>6:05 Make Breakfast</h2><div class="paragraph"><p>Coffee &amp; Müsli for me, tea for my wife.</p></div></section><section id="_6_30_catching_up"><h2>6:30 Catching up</h2><div class="paragraph"><p>Twitter, Slack, E-Mail</p></div></section><section id="_6_45_stackoverflow"><h2>6:45 Stackoverflow</h2></section><section id="_7_00_work_on_jira_issues"><h2>7:00 Work on Jira issues</h2><div class="paragraph"><p>I picked those to work on the day before or during Catching up.</p></div></section><section id="_9_00_standup"><h2>9:00 Standup</h2></section><section id="_11_30_move"><h2>11:30 Move</h2><div class="paragraph"><p>Running or Freeletics</p></div></section><section id="_12_15_lunch"><h2>12:15 Lunch</h2></section><section id="_13_00_back_to_work"><h2>13:00 Back to work</h2><div class="paragraph"><p>Small stuff.</p></div>
+<div class="paragraph"><p>Staring at Jira issues to find stuff to work on.</p></div></section><section id="_16_00_call_it_a_day"><h2>16:00 Call it a day</h2></section></section>
+<section><section id="_1st_wrap_up" data-background-image="images/wrap.png" data-background-size="contain"><h2>1st Wrap up</h2></section><section id="_it_s_awesome"><h2>It&#8217;s awesome</h2></section><section id="_why_aren_t_more_companies_working_like_this"><h2>Why aren&#8217;t more companies working like this?</h2></section></section>
+<section id="_how_did_i_get_there" data-background-image="images/labyrinth.png" data-background-size="contain"><h2>How did I get there?</h2><div class="paragraph"><p>How might you do it?</p></div></section>
+<section><section id="_i_realized_early_on_i_m_a_prodigy" data-background-image="images/prodigy.png" data-background-size="contain"><h2>I realized early on I&#8217;m a Prodigy</h2></section><section id="_how_to_display_an_image"><h2>How to Display an Image</h2><div class="listingblock"><div class="content"><pre class="CodeRay"><code>for (x &lt;- 0..9)
+    for (y &lt;- 0..9)
+       plot (x, y, image[x][y])</code></pre></div></div></section><section id="_result"><h2>Result</h2><div class="paragraph"><p>Flipped on the diagonal</p></div></section><section id="_fix"><h2>Fix</h2><div class="listingblock"><div class="content"><pre class="CodeRay"><code>for (y &lt;- 0..9)
+    for (x &lt;- 0..9)
+       plot (x, y, image[x][y])</code></pre></div></div></section><section id="_fix_2"><h2>Fix</h2><div class="listingblock"><div class="content"><pre class="CodeRay"><code>for (y &lt;- 9..0 step -1)
+    for (x &lt;- 0..9)
+       plot (x, y, image[x][y])</code></pre></div></div></section><section id="_fix_3"><h2>Fix</h2><div class="listingblock"><div class="content"><pre class="CodeRay"><code>for (y -&gt; 9..0 step -1)
+    for (x -&gt; 9..0 step -1)
+       plot (x, y, image[x][y])</code></pre></div></div></section></section>
+<section><section id="_there_are_8_variations_of_this"><h2>There are 8 variations of this</h2><div class="paragraph"><p>I tried them all.</p></div><div class="paragraph"><p>Multiple times.</p></div></section><section id="_despair" data-background-image="images/wack-the-mole.png" data-background-size="contain"><h2>Despair!</h2></section><section id="_razor_sharp_focus"><h2>Razor sharp focus</h2><div class="paragraph"><p>In all situations.</p></div></section><section id="_teacher_distributes_handouts"><h2>Teacher distributes handouts</h2><div class="paragraph"><p>2 printed on single sheet.</p></div></section><section><div class="quoteblock"><blockquote><div class="paragraph"><p>You don&#8217;t have to rip it a part. I have a hole punch.</p></div></blockquote><div class="attribution">&#8212; Me</div></div></section><section id="_still_making_stupid_mistakes"><h2>Still making stupid mistakes</h2><div class="paragraph"><p>like a pro.</p></div></section><section id="_be_a_prodigy"><h2>Be a Prodigy?</h2></section><section id="_instead"><h2>Instead</h2><div class="paragraph"><p>Keep learning!</p></div></section></section>
+<section><section id="_clearly_set_my_goal" data-background-image="images/pulp-fiction.png" data-background-size="contain"><h2>Clearly set my goal</h2><div class="paragraph"><p>to become an awesome software developer!</p></div></section><section id="_by_studying_physics"><h2>By studying physics</h2></section><section id="_i_learned"><h2>I learned &#8230;&#8203;</h2><aside class="notes"><div class="paragraph"><p>to format code justified</p></div></aside></section><section id="_you_won_t_make_it_alone"><h2>You won&#8217;t make it alone!</h2><div class="paragraph"><p>Thanks to</p></div>
+<div class="ulist"><ul><li><p>Jens</p></li><li><p>Christine</p></li><li><p>Andreas</p></li><li><p>Axel</p></li><li><p>Volker</p></li></ul></div>
+<div class="paragraph"><p>and many more</p></div>
+<aside class="notes"><div class="paragraph"><p>I wouldn&#8217;t have made it without my fellow students</p></div>
+<div class="paragraph"><p>Without them I&#8217;d still have made it but only by finding other students to pull me through</p></div></aside></section><section id="_i_didn_t_even_wanted_to_become_a_software_developer"><h2>I didn&#8217;t even wanted to become a software developer</h2></section><section id="_physics_jobs_vs_it_jobs"><h2>Physics jobs vs IT jobs</h2></section></section>
+<section><section id="_so_i_started_in_it" data-background-image="images/hello-world.png" data-background-size="contain"><h2>So I started in IT</h2></section><section id="_got_side_tracked"><h2>Got side tracked</h2></section><section><div class="quoteblock"><blockquote><div class="paragraph"><p>Where do you see yourself in 5 years?</p></div></blockquote><div class="attribution">&#8212; First Boss</div></div></section><section><div class="quoteblock"><blockquote><div class="paragraph"><p>I&#8217;ll become a Project Manager</p></div></blockquote><div class="attribution">&#8212; Still young me</div></div></section><section id="_and_i_did"><h2>And I did!</h2><aside class="notes"><div class="paragraph"><p>Learned a lot for certification</p></div>
+<div class="paragraph"><p>Failed badly in first project</p></div>
+<div class="paragraph"><p>Learned that I prefer and love actual coding</p></div></aside></section><section id="_i_finally_became_a_software_developer"><h2>I finally became a Software Developer</h2><div class="paragraph"><p>and realized that I loved it!</p></div>
+<aside class="notes"><div class="paragraph"><p>Might have been one of the smartest things I knowingly did in my life.</p></div></aside></section><section id="_set_your_goal_and_follow_it"><h2>Set your Goal and follow it!</h2><div class="paragraph"><p><strong>???</strong></p></div></section><section id="_instead_2"><h2>Instead</h2></section><section id="_try_things_and_see_what_works_for_you"><h2>Try things and see what works for you.</h2></section><section id="_create_opportunities"><h2>Create opportunities</h2></section><section id="_for_luck_to_find_you"><h2>for Luck to find you</h2></section><section id="_for_connecting_to_people"><h2>for connecting to people</h2></section><section id="_for_learning"><h2>for learning</h2></section><section id="_what_opportunities_do_you_create"><h2>What opportunities do you create &#8230;&#8203;</h2></section><section id="__while_sitting_in_an_office"><h2>&#8230;&#8203; while sitting in an office?</h2></section><section id="__when_speaking_at_conferences"><h2>&#8230;&#8203; when speaking at conferences.</h2></section><section id="__working_abroad"><h2>&#8230;&#8203; working abroad.</h2></section><section id="__writing_a_blog"><h2>&#8230;&#8203; writing a blog.</h2></section><section id="_don_t_get_stuck_in_a_situation_you_hate"><h2>Don&#8217;t get stuck in a situation you hate!</h2></section><section id="_get_yourself_in_scary_situations"><h2>Get yourself in scary situations.</h2></section><section id="_possibly_the_biggest_mistake_i_made"><h2>Possibly the biggest mistake I made</h2><aside class="notes"><div class="paragraph"><p>Friend tells a story about some one getting a parachute jump as a present.</p></div>
+<div class="paragraph"><p>Me "I really would hate getting tricked into such a scary situation"</p></div>
+<div class="paragraph"><p>I never got that present.</p></div>
+<div class="paragraph"><p>I would have hated it in the situation.</p></div>
+<div class="paragraph"><p>But would have loved the experience.</p></div></aside></section><section id="_18_months_usa"><h2>18 months USA</h2><aside class="notes"><div class="paragraph"><p>Thought I would be back in a week.</p></div>
+<div class="paragraph"><p>Stayed for 18 months.</p></div>
+<div class="paragraph"><p>Never learned so much so fast in my life.</p></div>
+<div class="paragraph"><p>It was a lucky accident for me.</p></div>
+<div class="paragraph"><p>Maybe you should plan that.</p></div></aside>
+<aside class="notes"><div class="paragraph"><p>Like with physical training:</p></div>
+<div class="paragraph"><p>If it doesn&#8217;t hurt, it doesn&#8217;t do much.</p></div></aside></section></section>
+<section><section id="_do_stuff_you_never_did_before" data-background-image="images/jump.png" data-background-size="contain"><h2>Do stuff you never did before</h2></section><section id="_creative_writing"><h2>Creative Writing</h2></section><section id="_triggered_my_blog"><h2>Triggered my blog</h2></section><section id="_which_formed_a_contact_to_oliver_gierke"><h2>Which formed a contact to Oliver Gierke</h2></section></section>
+<section><section id="_let_s_wrap_up" data-background-image="images/wrap.png" data-background-size="contain"><h2>Let&#8217;s wrap up</h2></section><section id="_don_t_overthink_stuff"><h2>Don&#8217;t overthink stuff</h2><div class="paragraph"><p>You can&#8217;t control it anyway</p></div></section><section id="_try_stuff"><h2>Try stuff</h2><div class="paragraph"><p>And learn from</p></div>
+<div class="paragraph"><p>success</p></div>
+<div class="paragraph"><p>+</p></div>
+<div class="paragraph"><p>failure</p></div></section><section id="_enjoy_the_trip"><h2>Enjoy the trip</h2></section></section>
+<section><section id="_one_last_thing" data-background-image="images/steve-jobs.png" data-background-size="contain"><h2>One last thing</h2></section><section id="_you_probably_have_to_apply"><h2>You probably have to apply</h2><div class="paragraph"><p>to get a job.</p></div></section></section>
+<section id="_jens_schauder"><h2>Jens Schauder</h2><div class="paragraph"><p>Vater, Spieler, Läufer, Boulderer</p></div>
+<span>
+<img src="images/pivotal-spring-logo.png" style="vertical-align: middle; border:none;" width="200"/>
++
+<img src="images/spring-data-logo.png"  style="vertical-align: middle; border:none;" width="60"/>
+</span>
+<div class="paragraph"><p>JUG Organizer
+    
+    <img src="images/jug_final_small.png" style="vertical-align: middle; border:none;" width="150"/>
+    </p></div>
+<div class="paragraph"><p><a href="http://to-be-defined">Folien online: http://to-be-defined</a></p></div></section></div></div><script src="reveal.js-3.6.0/lib/js/head.min.js"></script><script src="reveal.js-3.6.0/js/reveal.js"></script><script>// See https://github.com/hakimel/reveal.js#configuration for a full list of configuration options
+Reveal.initialize({
+  // Display controls in the bottom right corner
+  controls: true,
+  // Display a presentation progress bar
+  progress: true,
+  // Display the page number of the current slide
+  slideNumber: false,
+  // Push each slide change to the browser history
+  history: true,
+  // Enable keyboard shortcuts for navigation
+  keyboard: true,
+  // Enable the slide overview mode
+  overview: true,
+  // Vertical centering of slides
+  center: true,
+  // Enables touch navigation on devices with touch input
+  touch: true,
+  // Loop the presentation
+  loop: false,
+  // Change the presentation direction to be RTL
+  rtl: false,
+  // Turns fragments on and off globally
+  fragments: true,
+  // Flags if the presentation is running in an embedded mode,
+  // i.e. contained within a limited portion of the screen
+  embedded: false,
+  // Number of milliseconds between automatically proceeding to the
+  // next slide, disabled when set to 0, this value can be overwritten
+  // by using a data-autoslide attribute on your slides
+  autoSlide: 0,
+  // Stop auto-sliding after user input
+  autoSlideStoppable: true,
+  // Enable slide navigation via mouse wheel
+  mouseWheel: false,
+  // Hides the address bar on mobile devices
+  hideAddressBar: true,
+  // Opens links in an iframe preview overlay
+  previewLinks: false,
+  // Theme (e.g., beige, black, league, night, serif, simple, sky, solarized, white)
+  // NOTE setting the theme in the config no longer works in reveal.js 3.x
+  //theme: Reveal.getQueryHash().theme || 'black',
+  // Transition style (e.g., none, fade, slide, convex, concave, zoom)
+  transition: Reveal.getQueryHash().transition || 'linear',
+  // Transition speed (e.g., default, fast, slow)
+  transitionSpeed: 'default',
+  // Transition style for full page slide backgrounds (e.g., none, fade, slide, convex, concave, zoom)
+  backgroundTransition: 'fade',
+  // Number of slides away from the current that are visible
+  viewDistance: 3,
+  // Parallax background image (e.g., "'https://s3.amazonaws.com/hakim-static/reveal-js/reveal-parallax-1.jpg'")
+  parallaxBackgroundImage: '',
+  // Parallax background size in CSS syntax (e.g., "2100px 900px")
+  parallaxBackgroundSize: '',
+
+  // The "normal" size of the presentation, aspect ratio will be preserved
+  // when the presentation is scaled to fit different resolutions. Can be
+  // specified using percentage units.
+  width: 1280,
+  height: 720,
+
+  // Factor of the display size that should remain empty around the content
+  margin: 0.1,
+
+  // Bounds for smallest/largest possible scale to apply to content
+  minScale: 0.2,
+  maxScale: 1.5,
+
+  // Optional libraries used to extend on reveal.js
+  dependencies: [
+      { src: 'reveal.js-3.6.0/lib/js/classList.js', condition: function() { return !document.body.classList; } },
+      { src: 'reveal.js-3.6.0/plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      { src: 'reveal.js-3.6.0/plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+      
+      { src: 'reveal.js-3.6.0/plugin/zoom-js/zoom.js', async: true, condition: function() { return !!document.body.classList; } },
+      { src: 'reveal.js-3.6.0/plugin/notes/notes.js', async: true, condition: function() { return !!document.body.classList; } }
+  ]
+});</script></body></html>

@@ -44,7 +44,11 @@ image::goal.png[background, size=contain]
 
 === He joins Pivotal
 
+image::pivotal.png[background, size=contain]
+
 == Hey Boss what should I work on?
+
+image::question.png[background, size=contain]
 
 === Whatever does help the project.
 
@@ -128,6 +132,15 @@ means
 * Skype
 * Zoom
 
+=== Great Team
+
+=== Boss is Java Champion
+=== Multiple Book Authors
+=== Author of relevant DB drivers
+=== Multiple JUG organizers
+=== All are international conference speakers
+
+
 == Effects
 
 image::domino.png[background, size=contain]
@@ -138,14 +151,6 @@ image::domino.png[background, size=contain]
 ====
 Almost everything is on GitHub
 ====
-
-=== Great Team
-
-=== Boss is Java Champion
-=== Multiple Book Authors
-=== Author of relevant DB drivers
-=== Multiple JUG organizers
-=== All are international conference speakers
 
 === People talk to you
 
@@ -239,9 +244,13 @@ image::wrap.png[background, size=contain]
 === Why aren't more companies working like this?
 
 == How did I get there?
-How might you do it?
 
 image::labyrinth.png[background, size=contain]
+
+[NOTE.speaker]
+====
+How might you do it?
+====
 
 == I realized early on I'm a Prodigy
 
@@ -287,7 +296,7 @@ for (y -> 9..0 step -1)
        plot (x, y, image[x][y])
 ----
 
-== There are 8 variations of this
+=== There are 8 variations of this
 
 I tried them all.
 
@@ -324,9 +333,12 @@ Keep learning!
 
 == Clearly set my goal
 
-to become an awesome software developer!
-
 image::pulp-fiction.png[background, size=contain]
+
+[NOTE.speaker]
+====
+to become an awesome software developer!
+====
 
 === By studying physics
 

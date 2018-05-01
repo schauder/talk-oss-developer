@@ -10,6 +10,8 @@ include::footer.ad[]
 
 == Every story needs a Hero
 
+image::hero.png[background, size=contain]
+
 === Ours is ...
 
 === Middle aged
@@ -17,6 +19,8 @@ include::footer.ad[]
 for almost 30 years now.
 
 === Balding
+
+image::bald.png[background, size=contain]
 
 even if he wouldn't shave from time to time.
 
@@ -30,13 +34,17 @@ mostly conference organizers.
 
 === And bad eye sight
 
+image::glasses.png[background, size=contain]
+
 == Lets begin at the end.
+
+image::goal.png[background, size=contain]
 
 === He starts his dream job
 
-== He joins Pivotal
+=== He joins Pivotal
 
-=== Hey Boss what should I work on?
+== Hey Boss what should I work on?
 
 === Whatever does help the project.
 
@@ -44,7 +52,11 @@ mostly conference organizers.
 
 === Stackoverflow
 
+image::stackoverflow.png[background, size=contain]
+
 === Bug Fixes
+
+image::bugs.png[background, size=contain]
 
 === Reviewing & Merging PRs
 
@@ -63,6 +75,10 @@ There are priorities.
 
 There is a ton of freedom.
 ====
+
+== Organization & Process
+
+image::organization.png[background, size=contain]
 
 === No planning
 
@@ -112,6 +128,10 @@ means
 * Skype
 * Zoom
 
+== Effects
+
+image::domino.png[background, size=contain]
+
 === Great Visibility
 
 [NOTE.speaker]
@@ -144,6 +164,8 @@ Josh Long (@starbuxman)
 
 == Drawbacks
 
+image::hook.png[background, size=contain]
+
 === Everything is public
 
 [NOTE.speaker]
@@ -174,6 +196,8 @@ Or just metal until they complain about the noise
 > It's like doing you favorite thing all day and getting paid for it. But you do it in front of an enormous audience that is constantly murmuring.
 
 == A workday in my life
+
+image::time.png[background, size=contain]
 
 === 6:00 Get up
 === 6:05 Make Breakfast
@@ -206,17 +230,29 @@ Staring at Jira issues to find stuff to work on.
 
 === 16:00 Call it a day
 
+== 1st Wrap up
+
+image::wrap.png[background, size=contain]
+
+=== It's awesome
+
+=== Why aren't more companies working like this?
+
 == How did I get there?
 How might you do it?
 
+image::labyrinth.png[background, size=contain]
+
 == I realized early on I'm a Prodigy
+
+image::prodigy.png[background, size=contain]
 
 === How to Display an Image
 
 [source]
 ----
-for (x -> 0..9)
-    for (y -> 0..9)
+for (x <- 0..9)
+    for (y <- 0..9)
        plot (x, y, image[x][y])
 ----
 
@@ -228,8 +264,8 @@ Flipped on the diagonal
 
 [source]
 ----
-for (y -> 0..9)
-    for (x -> 0..9)
+for (y <- 0..9)
+    for (x <- 0..9)
        plot (x, y, image[x][y])
 ----
 
@@ -237,8 +273,8 @@ for (y -> 0..9)
 
 [source]
 ----
-for (y -> 9..0 step -1)
-    for (x -> 0..9)
+for (y <- 9..0 step -1)
+    for (x <- 0..9)
        plot (x, y, image[x][y])
 ----
 
@@ -258,6 +294,8 @@ I tried them all.
 Multiple times.
 
 === Despair!
+
+image::wack-the-mole.png[background, size=contain]
 
 === Razor sharp focus
 
@@ -287,6 +325,8 @@ Keep learning!
 == Clearly set my goal
 
 to become an awesome software developer!
+
+image::pulp-fiction.png[background, size=contain]
 
 === By studying physics
 
@@ -321,6 +361,8 @@ Without them I'd still have made it but only by finding other students to pull m
 === Physics jobs vs IT jobs
 
 == So I started in IT
+
+image::hello-world.png[background, size=contain]
 
 === Got side tracked
 
@@ -430,6 +472,8 @@ If it doesn't hurt, it doesn't do much.
 
 == Do stuff you never did before
 
+image::jump.png[background, size=contain]
+
 === Creative Writing
 
 === Triggered my blog
@@ -437,6 +481,8 @@ If it doesn't hurt, it doesn't do much.
 === Which formed a contact to Oliver Gierke
 
 == Let's wrap up
+
+image::wrap.png[background, size=contain]
 
 === Don't overthink stuff
 
@@ -455,6 +501,8 @@ failure
 === Enjoy the trip
 
 == One last thing
+
+image::steve-jobs.png[background, size=contain]
 
 === You probably have to apply
 

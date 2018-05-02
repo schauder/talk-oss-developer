@@ -258,6 +258,10 @@ image::prodigy.png[background, size=contain]
 
 === How to Display an Image
 
+image::invaders.png[background, size=contain]
+
+=== 1st attempt
+
 [source]
 ----
 for (x <- 0..9)
@@ -265,9 +269,9 @@ for (x <- 0..9)
        plot (x, y, image[x][y])
 ----
 
-=== Result
+=== !
 
-Flipped on the diagonal
+image::invaders-flipped.png[background, size=contain]
 
 === Fix
 
@@ -278,6 +282,10 @@ for (y <- 0..9)
        plot (x, y, image[x][y])
 ----
 
+=== !
+
+image::invaders-flipped.png[background, size=contain]
+
 === Fix
 
 [source]
@@ -287,6 +295,10 @@ for (y <- 9..0 step -1)
        plot (x, y, image[x][y])
 ----
 
+=== !
+
+image::invaders-flipped.png[background, size=contain]
+
 === Fix
 
 [source]
@@ -295,6 +307,10 @@ for (y -> 9..0 step -1)
     for (x -> 9..0 step -1)
        plot (x, y, image[x][y])
 ----
+
+=== !
+
+image::invaders-flipped.png[background, size=contain]
 
 === There are 8 variations of this
 
@@ -370,7 +386,9 @@ Without them I'd still have made it but only by finding other students to pull m
 
 === I didn't even wanted to become a software developer
 
-=== Physics jobs vs IT jobs
+=== !
+
+image::jobs.png[background, size=contain]
 
 == So I started in IT
 
@@ -392,10 +410,9 @@ ____
 I'll become a Project Manager
 ____
 
-=== And I did!
+=== !
 
-
-// indiana jones image?
+image::indiana-jones.png[background, size=contain]
 
 [NOTE.speaker]
 ====

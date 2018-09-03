@@ -8,33 +8,7 @@
 
 include::footer.ad[]
 
-== Every story needs a Hero
-
-image::hero.png[background, size=contain]
-
-=== Ours is ...
-
-=== Middle aged
-
-for almost 30 years now.
-
-=== Balding
-
-image::bald.png[background, size=contain]
-
-even if he wouldn't shave from time to time.
-
-=== Depends on gifts from strangers for clothing
-
-mostly conference organizers.
-
-=== But he has strengths too!
-
-=== Like asthma
-
-=== And bad eye sight
-
-image::glasses.png[background, size=contain]
+include::preface.ad[]
 
 == Lets begin at the end.
 
@@ -200,42 +174,7 @@ Or just metal until they complain about the noise
 
 > It's like doing you favorite thing all day and getting paid for it. But you do it in front of an enormous audience that is constantly murmuring.
 
-== A workday in my life
-
-image::time.png[background, size=contain]
-
-=== 6:00 Get up
-=== 6:05 Make my bed
-=== 6:10 Take a cold shower
-=== 6:30 Make breakfast
-
-Coffee & Müsli for me, tea for my wife.
-
-=== 6:45 Journaling & Meditation
-
-=== 7:00 Catching up
-
-Twitter, Slack, E-Mail, Stackoverflow
-
-=== 7:30 Work on Jira issues
-
-I picked those to work on the day before or during Catching up.
-
-=== 9:00 Standup
-
-=== 11:30 Move
-
-Running or Freeletics
-
-=== 12:15 Lunch
-
-=== 12:45 Back to work
-
-Small stuff.
-
-Staring at Jira issues to find stuff to work on.
-
-=== 17:00 Work on something outside my office
+include::workday.ad[]
 
 == 1st Wrap up
 
@@ -243,7 +182,7 @@ image::wrap.png[background, size=contain]
 
 === It's awesome
 
-=== Why aren't more companies working like this?
+=== Inspiration for other companies?
 
 == How did I get there?
 
@@ -462,22 +401,9 @@ Might have been one of the smartest things I knowingly did in my life.
 
 === Don't get stuck in a situation you hate!
 
-=== Get yourself in scary situations.
+== Get yourself in scary situations.
 
-=== Possibly the biggest mistake I made
-
-[NOTE.speaker]
-====
-Friend tells a story about some one getting a parachute jump as a present.
-
-Me "I really would hate getting tricked into such a scary situation"
-
-I never got that present.
-
-I would have hated it in the situation.
-
-But would have loved the experience.
-====
+include::skydiving.ad[]
 
 === 18 months USA
 
@@ -492,16 +418,11 @@ Never learned so much so fast in my life.
 It was a lucky accident for me.
 
 Maybe you should plan that.
-====
 
-[NOTE.speaker]
-====
 Like with physical training:
 
 If it doesn't hurt, it doesn't do much.
 ====
-
-== Do stuff you never did before
 
 image::jump.png[background, size=contain]
 

@@ -8,7 +8,9 @@
 
 include::footer.ad[]
 
+ifndef::short[]
 include::preface.ad[]
+endif::[]
 
 == Lets begin at the end.
 
@@ -174,7 +176,10 @@ Or just metal until they complain about the noise
 
 > It's like doing you favorite thing all day and getting paid for it. But you do it in front of an enormous audience that is constantly murmuring.
 
+
+ifndef::short[]
 include::workday.ad[]
+endif::[]
 
 == 1st Wrap up
 
@@ -403,7 +408,9 @@ Might have been one of the smartest things I knowingly did in my life.
 
 == Get yourself in scary situations.
 
+ifndef::short[]
 include::skydiving.ad[]
+endif::[]
 
 === 18 months USA
 

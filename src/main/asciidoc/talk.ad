@@ -17,7 +17,7 @@ endif::[]
 
 image::goal.png[background, size=contain]
 
-=== He starts his dream job
+=== Our hero starts his dream job
 
 === He joins Pivotal
 
@@ -409,6 +409,8 @@ Might have been one of the smartest things I knowingly did in my life.
 
 == Get yourself in scary situations.
 
+image::jump.png[background, size=contain]
+
 ifndef::short[]
 include::skydiving.ad[]
 endif::[]
@@ -432,7 +434,6 @@ Like with physical training:
 If it doesn't hurt, it doesn't do much.
 ====
 
-image::jump.png[background, size=contain]
 
 === Creative Writing
 
